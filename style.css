@@ -1,0 +1,48 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 95vh;
+    box-shadow: 0 0 10px goldenrod;
+    border-radius: 10px;
+}
+
+#count {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: gold;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plus {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%, -50%);
+    width: 300px;
+    height: 200px;
+    border: 1px gold solid;
+    border-radius: 10px;
+
+}
+
+#inp-add {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    border: 1px gold solid;
+    border-radius: 10px;
+    outline: 0;
+}
+
+#inp-add::-webkit-inner-spin-button {
+    display: none;
+}
